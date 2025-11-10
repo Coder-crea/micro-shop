@@ -92,4 +92,3 @@ if context.is_offline_mode():
     run_migrations_offline()
 else:
     run_migrations_online()
-# Что такое объект context. в чем главная разница между run_online и ofline что тут за процессы идут что мы тут делаем? Это как подключение к базе данных за счет session? или это другой фоновый процесс позволяющий просто записывать миграции и он никак не относится к session?
